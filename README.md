@@ -1,5 +1,7 @@
 Deze repo is onderdeel van het vak informatica op het Emmauscollege Rotterdam.
 
+
+
 [Meer info over deze opdracht](https://informatica.emmauscollege.nl/)
 
 # Basis uitleg hoe de webshop werkt
