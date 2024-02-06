@@ -205,3 +205,31 @@ for help almost 24x7 with many questions and problems and providing basic shop c
 
 
 
+
+# plan om api en web deel te maken
+
+uitleg video api: nummer 5
+uitleg video web: nummer 6
+zie: https://informatica.emmauscollege.nl/opdrachten/webshop/
+
+1. API
+zie api/index.js
+bij app.get('/api/products', getProducts)<br>
+staat dat je in getProducts de code vindt als je /api/products opvraagt<br>
+in getProducts vind je de query:<br>
+'SELECT products.id AS id, products.name AS name, products.description AS description, products.code AS code, products.price AS price FROM products ORDER BY id ASC'
+Deze query moet je aanpassen. Let op: gebruik altijd AS om de velden een naam te geven.
+Velden uit je products tabel die je zelf gemaakt hebt kun je toevoegen<br>
+Je kunt ook JOIN gebruiken om 1:n relaties toe te voegen.
+
+2. WEB
+zie web/index.html
+Het template onder <!-- template for product info-->
+wordt gekopieerd voor elk artikel
+Dus alle informatie die je wilt toevoegen,
+daarvoor moet je in je template een plekje toevoegen
+
+in het script voeg je de waarden uit de api toe aan de webpagina.
+Doe dat onder
+// voeg product toe aan DOM, 
+
